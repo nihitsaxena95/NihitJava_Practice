@@ -1,0 +1,12 @@
+package com.servlet.example;
+
+import com.junit.Test;
+
+public class Unitprt {
+	
+	@Test
+	public void test() {
+		
+	}
+
+}

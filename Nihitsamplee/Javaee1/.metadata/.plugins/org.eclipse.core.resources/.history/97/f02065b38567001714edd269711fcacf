@@ -1,0 +1,6 @@
+package com.servlet.example;
+import java.sql.*;
+
+public class Connect {
+Connect()
+}

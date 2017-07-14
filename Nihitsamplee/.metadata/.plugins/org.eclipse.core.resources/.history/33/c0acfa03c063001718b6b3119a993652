@@ -1,0 +1,14 @@
+package System;
+import java.sql.*;
+
+public class Jdbcconnect {
+	Connection c;
+	Jdbcconnect() {
+	try{
+	Class.forName("com.mysql.jdbc.Driver").newInstance();
+	c = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","root");
+} catch(Exception e) {
+	System.out.println(e);
+}
+}
+}

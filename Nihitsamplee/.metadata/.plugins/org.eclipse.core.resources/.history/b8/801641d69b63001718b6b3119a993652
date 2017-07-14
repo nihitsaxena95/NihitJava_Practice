@@ -1,0 +1,15 @@
+package area;
+import java.util.*;
+public class Entry {
+	ArrayList<Pojo> ar = new ArrayList<Pojo>();
+	void prt() {
+		for(Pojo p:ar) {
+			System.out.println(p.name);
+		}
+	}
+public static void main(String[] args) {
+	Jdbcconnect jd = new Jdbcconnect();
+	Entry er = new Entry();
+	er.ar = db.ret();
+}
+}

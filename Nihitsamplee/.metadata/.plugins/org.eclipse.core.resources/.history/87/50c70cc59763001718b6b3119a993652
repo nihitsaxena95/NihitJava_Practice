@@ -1,0 +1,8 @@
+package area;
+import java.util.*;
+public class Collect {
+ArrayList<Pojo> ar = new ArrayList<Pojo>();
+	Collect(Pojo t) {
+	
+}
+}

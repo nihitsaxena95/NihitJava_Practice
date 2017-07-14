@@ -1,0 +1,15 @@
+package com.servlet.example;
+
+import org.junit.Test;
+import java.sql.*;
+
+public class Unitprt {
+	
+	@Test
+	public void connectTest() throws Exception {
+	Class.forName("com.mysql.jdbc.Driver");
+	Connection con = DriverManager.getConnection()
+	
+	}
+
+}

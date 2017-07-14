@@ -1,0 +1,14 @@
+package Test;
+import java.util.*;
+
+public class Fivetest {
+Map<Integer,String> mp = new HashMap<Integer,String>();
+
+Fivetest() {
+	mp.put(1, "Nihit");
+	mp.put(2, "Anurag");
+	mp.put(3, "Saksham");
+	mp.put(4, "Radha");
+	mp.put(5, "Baap");
+}
+}

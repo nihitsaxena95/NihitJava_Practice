@@ -1,0 +1,10 @@
+package mock;
+
+public interface Mo {
+	String hello = "Hello World";
+	String geek();
+}
+
+public class Mock1 {
+	
+}

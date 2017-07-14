@@ -1,0 +1,10 @@
+package area;
+import java.util.*;
+public class Entry {
+	void prt(ArrayList<Pojo> ar) {
+		
+	}
+public static void main(String[] args) {
+	
+}
+}

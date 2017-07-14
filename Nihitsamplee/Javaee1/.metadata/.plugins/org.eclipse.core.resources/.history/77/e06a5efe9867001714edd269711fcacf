@@ -1,0 +1,11 @@
+package com.servlet.example;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+
+public class Queryget {
+ResultSet rs;
+	Queryget(Connection con) {
+	
+}
+}

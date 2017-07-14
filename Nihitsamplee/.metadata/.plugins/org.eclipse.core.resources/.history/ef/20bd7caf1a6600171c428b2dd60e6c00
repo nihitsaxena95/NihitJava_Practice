@@ -1,0 +1,11 @@
+package sample;
+
+public class LambaHello {
+
+	interface Mathop {
+		int oper(int a,int b);
+	}
+	privste int operation (int a,int b, Mathop op) {
+		return op.oper(a, b);
+	}
+}

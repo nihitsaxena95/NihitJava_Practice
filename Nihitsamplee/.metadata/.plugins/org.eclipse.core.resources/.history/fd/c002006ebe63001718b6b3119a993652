@@ -1,0 +1,8 @@
+package System;
+import java.sql.*;
+
+public class Jdbcconnect {
+Jdbcconnect() {
+	Class.forName(com.mysql.jdbc.Driver).getInstance();
+}
+}

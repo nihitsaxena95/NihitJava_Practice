@@ -1,0 +1,8 @@
+package area;
+
+public class Entry {
+	ArrayList<Pojo> ar = new ArrayList<Pojo>(); 
+public static void main(String[] args) {
+	
+}
+}

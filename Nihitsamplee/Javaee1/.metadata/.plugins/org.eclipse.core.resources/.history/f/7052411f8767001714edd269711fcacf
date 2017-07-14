@@ -1,0 +1,7 @@
+package com.servlet.example;
+
+public class Queryput {
+Queryput(Connection con,String name,int age,int salary) {
+	
+}
+}

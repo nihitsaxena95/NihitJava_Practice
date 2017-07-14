@@ -1,0 +1,12 @@
+package mock;
+
+import org.mockito.*;
+import org.junit.*;
+
+public class MockTest1 {
+	
+	@Test
+	public void test() {
+		
+	}
+}

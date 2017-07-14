@@ -1,0 +1,12 @@
+package mock;
+import java.sql.*;
+
+public class Mock {
+
+	private Connection con;
+	
+	public void getCon() throws Exception {
+		Class.forName("com.mysql.jdbc.Driver");
+		con = DriverManager.getConnection("jdbc:mysql://localhost::3306/test1","root","root");
+	}
+}

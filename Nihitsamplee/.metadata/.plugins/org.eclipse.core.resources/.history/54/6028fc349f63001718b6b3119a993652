@@ -1,0 +1,16 @@
+package area;
+import java.util.*;
+public class Entry {
+	ArrayList<Pojo> ar = new ArrayList<Pojo>();
+	void prt() {
+		for(Pojo p:ar) {
+			System.out.println(p.id+"----"p.name+"----"+p.salary);
+		}
+	}
+public static void main(String[] args) {
+	Jdbcconnect jd = new Jdbcconnect();
+	Entry er = new Entry();
+	er.ar = jd.ret();
+	er.prt();
+}
+}

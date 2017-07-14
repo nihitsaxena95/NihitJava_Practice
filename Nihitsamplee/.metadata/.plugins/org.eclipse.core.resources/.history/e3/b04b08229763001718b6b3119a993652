@@ -1,0 +1,12 @@
+package area;
+
+public class Pojo {
+int id;
+String name;
+int salary;
+Pojo(int id,String name,String salary) {
+	this.id = id;
+	this.name = name;
+	this.salary = salary;
+}
+}

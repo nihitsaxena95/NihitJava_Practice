@@ -1,0 +1,19 @@
+<web-app>
+<servlet>
+	<servlet-name>First</servlet-name>
+	<servlet-class>com.servlet.example.Logged</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>First</servlet-name>
+	<url-pattern>/View</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Second</servlet-name>
+	<servlet-class>com.servlet.example.Logged</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>First</servlet-name>
+	<url-pattern>/View</url-pattern>
+</servlet-mapping>
+</web-app>

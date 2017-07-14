@@ -1,0 +1,14 @@
+package mockstmt;
+
+import org.mockito.*;
+import org.junit.*;
+
+public class MockTest1 implements Mock1{
+	
+	@Test
+	public void test() {
+		MockTest1 m1 = new MockTest1();
+		Mockito.when(m1.geek()).thenReturn("Hello World");
+		System.out.println(m1.geek());
+	}
+}

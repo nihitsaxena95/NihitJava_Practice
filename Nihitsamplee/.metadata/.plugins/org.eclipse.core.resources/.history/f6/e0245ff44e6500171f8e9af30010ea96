@@ -1,0 +1,15 @@
+package Test;
+
+import static org.junit.runner.RunWith;
+import static org.junit.runners.*;
+
+import org.junit.Test;
+
+public class ForthtestTestTest2 {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

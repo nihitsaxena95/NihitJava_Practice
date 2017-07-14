@@ -1,0 +1,8 @@
+package Test;
+import java.util.*;
+
+public class Fivetest {
+Map<Integer,String> mp = new HashMap<Integer,String>();
+
+
+}

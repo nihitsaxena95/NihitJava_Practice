@@ -1,0 +1,15 @@
+package Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class firsttest {
+
+	@Test
+	public void testAdd() {
+		First f = new First();
+		assertEquals("10+5 must be 15",16,f.add(10, 5));
+	}
+
+}

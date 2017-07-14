@@ -1,0 +1,13 @@
+package System;
+import java.sql.*;
+
+public class Querypoint throws Exception {
+Querypoint(Connection c, Takedata td) {
+	
+Statement stmt = c.createStatement();
+ResultSet rs = stmt.executeQuery("Select * from sample");
+while(rs.next()) {
+	System.out.println(rs.getInt(1));
+}
+}
+}

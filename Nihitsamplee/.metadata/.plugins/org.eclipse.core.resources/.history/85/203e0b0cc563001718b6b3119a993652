@@ -1,0 +1,8 @@
+package System;
+import java.sql.Connection;
+
+public class Querypoint {
+Querypoint(Connection c, Takedata td) {
+	
+}
+}

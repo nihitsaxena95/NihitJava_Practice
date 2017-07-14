@@ -1,0 +1,2 @@
+127.0.0.1 - - [12/Jul/2017:16:47:48 +0530] "GET /ServletProject/ HTTP/1.1" 404 981
+127.0.0.1 - - [12/Jul/2017:16:48:41 +0530] "GET /ServletProject/firstHello HTTP/1.1" 200 57

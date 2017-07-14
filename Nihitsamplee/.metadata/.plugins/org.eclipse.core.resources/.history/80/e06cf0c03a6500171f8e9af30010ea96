@@ -1,0 +1,20 @@
+package Test;
+
+public class SecondTest {
+
+	public int check(int x) {
+		if(x ==10) {
+			System.out.println("10");
+		}
+		else if(x == 20) {
+			System.out.println("20");
+		}
+		else if( x > 50 && x < 100) {
+			System.out.println("50-100");
+		}
+		else if( x > 100) {
+			System.out.println("I am more than 100");
+		} 
+		return 0;
+	}
+}

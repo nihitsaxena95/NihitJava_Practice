@@ -1,0 +1,12 @@
+package com.servlet.example;
+
+import org.junit.Test;
+
+public class Unitprt {
+	
+	@Test
+	public void connectTest() {
+		
+	}
+
+}

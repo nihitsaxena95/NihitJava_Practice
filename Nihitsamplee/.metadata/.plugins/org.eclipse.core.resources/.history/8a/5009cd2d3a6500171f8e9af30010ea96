@@ -1,0 +1,17 @@
+package Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+public class SecondTestTest {
+
+	@Test
+	public void testCheck() {
+		SecondTest st = new SecondTest();
+		assertEquals("if x = 10 must be 10",10,st.check(10));
+		assertEquals("if x = 10 must be 10",10,st.check(10));
+		assertEquals("if x = 10 must be 10",10,st.check(10));
+		assertEquals("if x = 10 must be 10",10,st.check(10));
+	}
+
+}

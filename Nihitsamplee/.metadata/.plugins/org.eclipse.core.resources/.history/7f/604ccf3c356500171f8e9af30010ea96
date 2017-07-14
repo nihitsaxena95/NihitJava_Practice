@@ -1,0 +1,26 @@
+package Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class firsttest {
+
+	@Test
+	public void testAdd() {
+		First f = new First();
+		assertEquals("10+5 must be 15",15,f.add(10, 5));
+	}
+	
+	@Test
+	public void testMultiply() {
+		First f = new First();
+		assertEquals("10*5 must be 50",50,f.multi(10, 5));
+	}
+	
+	public void testsub() {
+		First f = new First();
+		assertEquals("10*5 must be 50",50,f.multi(10, 5));
+	}
+
+}

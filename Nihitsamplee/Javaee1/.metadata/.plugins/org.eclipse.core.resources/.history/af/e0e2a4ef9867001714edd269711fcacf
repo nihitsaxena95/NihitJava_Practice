@@ -1,0 +1,8 @@
+package com.servlet.example;
+
+public class Queryget {
+ResultSet rs;
+	Queryget(Connection con) {
+	
+}
+}

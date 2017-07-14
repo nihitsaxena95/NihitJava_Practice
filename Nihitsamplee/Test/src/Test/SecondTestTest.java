@@ -1,0 +1,22 @@
+package Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+public class SecondTestTest {
+
+		@Test (expected = IllegalArgumentException.class)
+		public void testcheck1() {
+			SecondTest st = new SecondTest();
+			st.check(25);
+		}
+	@Test
+	public void testCheck() {
+		SecondTest st = new SecondTest();
+		assertEquals("if x = 10 must be 10","10",st.check(10));
+		assertEquals("if x = 20 must be 20","20",st.check(20));
+		assertEquals("if x = 65 must be 50-100","50-100",st.check(65));
+		assertEquals("if x = 101 must be I am more than 100","I am more than 100",st.check(101));
+	}
+
+}

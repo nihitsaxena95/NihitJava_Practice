@@ -1,0 +1,7 @@
+package mock;
+
+import junit.framework.TestCase;
+
+public class MockTest1 extends TestCase {
+
+}

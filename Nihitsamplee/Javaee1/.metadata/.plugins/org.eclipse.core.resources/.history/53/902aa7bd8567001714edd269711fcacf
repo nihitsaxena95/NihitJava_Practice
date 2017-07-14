@@ -1,0 +1,9 @@
+package com.servlet.example;
+import java.sql.*;
+
+public class Connect {
+Connect() {
+	Class.forName("com.mysql.jdbc.Driver").newInstance();
+	
+}
+}

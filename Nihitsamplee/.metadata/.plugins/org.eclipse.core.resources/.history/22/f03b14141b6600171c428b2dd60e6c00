@@ -1,0 +1,18 @@
+package sample;
+
+public class LambaHello {
+
+	interface Mathop {
+		int oper(int a,int b);
+	}
+	private int operation (int a,int b, Mathop op) {
+		return op.oper(a, b);
+	}
+	
+	public static void main(String[] args) {
+		LambaHello lh = new LambaHello();
+		
+		Mathop add = (int a,int b) -> a + b;
+		System.out.println("Lambda");
+	}
+}
