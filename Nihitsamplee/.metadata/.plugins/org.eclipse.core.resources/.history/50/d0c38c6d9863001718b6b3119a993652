@@ -1,9 +1,0 @@
-package area;
-import java.util.*;
-
-public class Collect {
-ArrayList<Pojo> ar = new ArrayList<Pojo>();
-void Coll(Pojo t) {
-	ar.add(t);	
-}
-}
