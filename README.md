@@ -4,6 +4,6 @@
 
 Includes: 
 
-JUnit
-Spring
+JUnit |
+Spring |
 Hibernate
